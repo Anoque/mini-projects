@@ -107,6 +107,8 @@ function keyPressed() {
 		} else if (key == "e") {
 			endX = Math.floor(map(mouseX, 0, width, 0, countX));
 			endY = Math.floor(map(mouseY, 0, height, 0, countY));
+			wayX = endX;
+			wayY = endY;
 		}
 	}
 }
