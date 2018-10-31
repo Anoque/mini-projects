@@ -3,5 +3,8 @@
 Each folder has a small project
 
 ### Are used:
-> JavaScript
->> p5.js
+##### JavaScript
+* P5.js
+
+##### PHP
+* MVC pattern
