@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Morse</title>
+	<style type="text/css">
+		body {
+			padding: 0;
+			margin: 0;
+			width: 100vw;
+			height: 100vh;
+			overflow: hidden;
+			display: flex;
+			align-items: center;
+			flex-wrap: wrap;
+			flex-direction: column;
+		}
+
+		#text-form {
+			margin-bottom: 20px;
+		}
+
+		textarea {
+			border: 1px solid #555;
+			width: 50vw;
+			height: 10em;
+			border-radius: 5px;
+		}
+
+		button {
+			width: 100px;
+			height: 30px;
+			font-size: 20px;
+			line-height: 20px;
+			background: #fff;
+			border: 1px solid #999;
+			border-radius: 5px;
+		}
+	</style>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.sound.min.js"></script>
+	<script type="text/javascript" src="sketch.js"></script>
+</head>
+<body>
+	<div id="text-form">
+		<label for="user-text">Input your text</label>
+		<br>
+		<textarea id="user-text" cols="10"></textarea>
+		<br>
+		<button type="button" onclick="onStart()">Start</button>
+	</div>
+</body>
+</html>
